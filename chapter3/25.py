@@ -13,6 +13,7 @@ with open(filename, "r", encoding="utf-8") as f:
 
         # --- ステップ2: 辞書への抽出 ---
         pattern2 = r'(?:^|\n)\|(.+?)\s*=\s*(.+?)(?=\n|$)'
+        # --- 基礎情報テンプレートの各行からキーと値 を抜き出す ---
         result2 = re.findall(pattern2, result[0])
 
         info_dict = {}

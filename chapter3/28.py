@@ -16,21 +16,15 @@ with open(filename, "r", encoding="utf-8") as f:
 
 for key, text in inf_dic3.items():
         # 1. <ref>タグとその中身を消す（脚注）
-        # re.DOTALL: 改行またぎの注釈も消すために必須
         text = re.sub(r'<ref(\s.*?)?>.*?</ref>', '', text, flags=re.DOTALL)
 
         # 2. その他のHTMLタグ (<br>, <ref/> 等) を消す
         text = re.sub(r'<[^>]+>', '', text)
 
         # 3. 外部リンクを除去
-        # [http://google.com Google] -> Google (表示名を残す)
-        # [http://google.com] -> (削除)
         text = re.sub(r'\[https?://(?:[^\s]*?\s)?([^]]*?)\]', r'\1', text)
 
         # 4. テンプレート {{...}} の除去
-        # {{lang|en|United Kingdom}} -> United Kingdom (一番後ろを残す)
-        # {{仮リンク|A|B|C}} -> C (一番後ろを残す)
-        # 非貪欲マッチ(.*?)を使って、内側のテンプレートから処理するようにします
         pattern_template = r'\{\{(?:[^|]*?\|)*?([^|]*?)\}\}'
         text = re.sub(pattern_template, r'\1', text)
 

@@ -4,13 +4,13 @@ links
 
 | 課題 | ソースコード | 出力・結果 |
 |------|------------|------------|
-| 10   | [10.py](./10.py)     | [10.txt](./10.txt) |
-| 11   | [11.py](./11.py)      | [11.txt](./11.txt) |
-| 12   | [12.py](./12.py)      | [12.txt](./12.txt) |
-| 13   | [13.py](./13.py)      | [13.txt](./13.txt) |
-| 14   | [14.py](./14.py)      | [14.txt](./14.txt) |
-| 15   | [15.py](./15.py)      | [popular_names_1.txt](./popular_names_1.txt)<br>[popular_names_2.txt](./popular_names_2.txt)<br>[popular_names_3.txt](./popular_names_3.txt)<br>[popular_names_4.txt](./popular_names_4.txt)<br>[popular_names_5.txt](./popular_names_5.txt)<br>[popular_names_6.txt](./popular_names_6.txt)<br>[popular_names_7.txt](./popular_names_7.txt)<br>[popular_names_8.txt](./popular_names_8.txt)<br>[popular_names_9.txt](./popular_names_9.txt)<br>[popular_names_10.txt](./popular_names_10.txt) |
-| 16   | [16.py](./16.py)      | [shuffled_popular-name.txt](./shuffled_popular-name.txt) |
-| 17   | [17.py](./17.py)      | [17.txt](./17.txt) |
-| 18   | [18.py](./18.py)      | [18.txt](./18.txt) |
-| 19   | [19.py](./19.py)     | [sorted_by_third_column.txt](./sorted_by_third_column.txt) |
+| 10   | [40.py](./40.py)     | [40.txt](./40.txt) |
+| 11   | [41.py](./41.py)      | [41.txt](./41.txt) |
+| 12   | [42.py](./42.py)      | [42.txt](./42.txt) |
+| 13   | [43.py](./43.py)      | [43.txt](./43.txt) |
+| 14   | [44.py](./44.py)      | [44.txt](./44.txt) |
+| 15   | [45.py](./45.py)      | [45.txt](./45.txt)|
+| 16   | [46.py](./46.py)      | [46.txt](./46.txt) |
+| 17   | [47.py](./47.py)      | [47.txt](./47.txt) |
+| 18   | [48.py](./48.py)      | [48.txt](./48.txt) |
+| 19   | [49.py](./49.py)      | [49.txt](./49.txt) |

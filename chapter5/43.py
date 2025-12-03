@@ -33,7 +33,7 @@ for i, row in df.iterrows():
     )
 
     response = client.models.generate_content(
-            model="gemini-2.5-flash",
+            model="gemini-2.0-flash",
             contents= prompt
         )
     model_answer = response.text.strip().upper()

@@ -21,5 +21,5 @@ prompt = """
 chat = client.chats.create(model="gemini-2.5-flash")
 response = chat.send_message(prompt)
 
-# 修正：choicesではなくmessage.contentに直接アクセス
+
 print(response.text)

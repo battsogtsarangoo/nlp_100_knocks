@@ -11,7 +11,6 @@ prompt = f"""
 各川柳は簡潔でリズムよく、1行ずつ表示してください。
 """
 
-# 修正：chats.create() + send_message() を使用
 chat = client.chats.create(model="gemini-2.5-flash")
 response = chat.send_message(prompt)
 
